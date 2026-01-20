@@ -19,8 +19,8 @@ A web application that aggregates open source issues from repositories in the St
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd stellar-oss-projects
+git clone https://github.com/Stellar-West-Africa/stellar-oss-issues.git
+cd stellar-oss-issues
 ```
 
 2. Install dependencies:
@@ -102,10 +102,8 @@ src/
 - Tailwind CSS 4
 - Octokit
 
-
 ## Contributing
 
 Contributions are welcome. Please open an issue or submit a pull request.
-
 
 ## Cheers!
