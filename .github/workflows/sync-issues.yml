@@ -1,0 +1,19 @@
+name: Sync Stellar Issues
+
+on:
+  schedule:
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Trigger Vercel sync endpoint
+        run: |
+          curl -X GET https://stellar-oss-issues.vercel.app//api/sync
+        env:
+          # Add timeout to prevent hanging
+          CURL_TIMEOUT: 300
