@@ -128,45 +128,45 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">
       {/* Animated Stellar Assets Background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {/* Asset 1 instances - 8 total */}
-        <Image src="/stellar-asset-1.webp" alt="" width={200} height={200} className="absolute top-20 right-10 opacity-10 animate-float" />
+        {/* Asset 1 instances - Mobile: Show 2, Desktop: Show 8 */}
+        <Image src="/stellar-asset-1.webp" alt="" width={200} height={200} className="hidden md:block absolute top-20 right-10 opacity-10 animate-float" />
         <Image src="/stellar-asset-1.webp" alt="" width={150} height={150} className="absolute top-1/3 left-20 opacity-8 animate-float-delayed" />
-        <Image src="/stellar-asset-1.webp" alt="" width={100} height={100} className="absolute bottom-40 right-1/3 opacity-6 animate-pulse-slow" />
-        <Image src="/stellar-asset-1.webp" alt="" width={130} height={130} className="absolute top-1/4 right-1/2 opacity-7 animate-float" />
+        <Image src="/stellar-asset-1.webp" alt="" width={100} height={100} className="hidden md:block absolute bottom-40 right-1/3 opacity-6 animate-pulse-slow" />
+        <Image src="/stellar-asset-1.webp" alt="" width={130} height={130} className="hidden md:block absolute top-1/4 right-1/2 opacity-7 animate-float" />
         <Image src="/stellar-asset-1.webp" alt="" width={110} height={110} className="absolute bottom-1/3 left-1/4 opacity-5 animate-float-delayed" />
-        <Image src="/stellar-asset-1.webp" alt="" width={90} height={90} className="absolute top-2/3 right-1/4 opacity-6 animate-pulse-slow" />
-        <Image src="/stellar-asset-1.webp" alt="" width={170} height={170} className="absolute bottom-1/2 left-1/2 opacity-7 animate-float" />
-        <Image src="/stellar-asset-1.webp" alt="" width={120} height={120} className="absolute top-1/5 left-10 opacity-5 animate-float-delayed" />
+        <Image src="/stellar-asset-1.webp" alt="" width={90} height={90} className="hidden md:block absolute top-2/3 right-1/4 opacity-6 animate-pulse-slow" />
+        <Image src="/stellar-asset-1.webp" alt="" width={170} height={170} className="hidden md:block absolute bottom-1/2 left-1/2 opacity-7 animate-float" />
+        <Image src="/stellar-asset-1.webp" alt="" width={120} height={120} className="hidden md:block absolute top-1/5 left-10 opacity-5 animate-float-delayed" />
 
-        {/* Asset 2 instances - 7 total */}
-        <Image src="/stellar-asset-2.webp" alt="" width={150} height={150} className="absolute bottom-32 left-10 opacity-10 animate-float-delayed" />
+        {/* Asset 2 instances - Mobile: Show 2, Desktop: Show 7 */}
+        <Image src="/stellar-asset-2.webp" alt="" width={150} height={150} className="hidden md:block absolute bottom-32 left-10 opacity-10 animate-float-delayed" />
         <Image src="/stellar-asset-2.webp" alt="" width={120} height={120} className="absolute top-40 right-1/4 opacity-8 animate-float" />
-        <Image src="/stellar-asset-2.webp" alt="" width={140} height={140} className="absolute top-1/2 left-1/3 opacity-7 animate-pulse-slow" />
-        <Image src="/stellar-asset-2.webp" alt="" width={100} height={100} className="absolute bottom-1/4 right-1/2 opacity-6 animate-float-delayed" />
-        <Image src="/stellar-asset-2.webp" alt="" width={160} height={160} className="absolute top-1/5 left-1/2 opacity-5 animate-float" />
+        <Image src="/stellar-asset-2.webp" alt="" width={140} height={140} className="hidden md:block absolute top-1/2 left-1/3 opacity-7 animate-pulse-slow" />
+        <Image src="/stellar-asset-2.webp" alt="" width={100} height={100} className="hidden md:block absolute bottom-1/4 right-1/2 opacity-6 animate-float-delayed" />
+        <Image src="/stellar-asset-2.webp" alt="" width={160} height={160} className="hidden md:block absolute top-1/5 left-1/2 opacity-5 animate-float" />
         <Image src="/stellar-asset-2.webp" alt="" width={110} height={110} className="absolute bottom-10 right-10 opacity-8 animate-pulse-slow" />
-        <Image src="/stellar-asset-2.webp" alt="" width={130} height={130} className="absolute top-3/4 left-1/4 opacity-6 animate-float-delayed" />
+        <Image src="/stellar-asset-2.webp" alt="" width={130} height={130} className="hidden md:block absolute top-3/4 left-1/4 opacity-6 animate-float-delayed" />
 
-        {/* Main asset instances - 8 total */}
-        <Image src="/stellar-asset.webp" alt="" width={180} height={180} className="absolute top-1/2 right-1/4 opacity-5 animate-pulse-slow" />
+        {/* Main asset instances - Mobile: Show 2, Desktop: Show 8 */}
+        <Image src="/stellar-asset.webp" alt="" width={180} height={180} className="hidden md:block absolute top-1/2 right-1/4 opacity-5 animate-pulse-slow" />
         <Image src="/stellar-asset.webp" alt="" width={140} height={140} className="absolute bottom-1/4 left-1/3 opacity-7 animate-float-delayed" />
-        <Image src="/stellar-asset.webp" alt="" width={160} height={160} className="absolute top-1/3 right-1/3 opacity-6 animate-float" />
-        <Image src="/stellar-asset.webp" alt="" width={120} height={120} className="absolute bottom-1/2 left-1/4 opacity-5 animate-pulse-slow" />
-        <Image src="/stellar-asset.webp" alt="" width={100} height={100} className="absolute top-3/4 right-1/2 opacity-8 animate-float-delayed" />
-        <Image src="/stellar-asset.webp" alt="" width={130} height={130} className="absolute top-1/6 left-10 opacity-6 animate-float" />
+        <Image src="/stellar-asset.webp" alt="" width={160} height={160} className="hidden md:block absolute top-1/3 right-1/3 opacity-6 animate-float" />
+        <Image src="/stellar-asset.webp" alt="" width={120} height={120} className="hidden md:block absolute bottom-1/2 left-1/4 opacity-5 animate-pulse-slow" />
+        <Image src="/stellar-asset.webp" alt="" width={100} height={100} className="hidden md:block absolute top-3/4 right-1/2 opacity-8 animate-float-delayed" />
+        <Image src="/stellar-asset.webp" alt="" width={130} height={130} className="hidden md:block absolute top-1/6 left-10 opacity-6 animate-float" />
         <Image src="/stellar-asset.webp" alt="" width={150} height={150} className="absolute bottom-1/3 right-20 opacity-7 animate-pulse-slow" />
-        <Image src="/stellar-asset.webp" alt="" width={110} height={110} className="absolute top-1/4 left-1/2 opacity-5 animate-float-delayed" />
+        <Image src="/stellar-asset.webp" alt="" width={110} height={110} className="hidden md:block absolute top-1/4 left-1/2 opacity-5 animate-float-delayed" />
 
-        {/* Asset 3 instances - 9 total */}
-        <Image src="/stellar-asset-3.png" alt="" width={120} height={120} className="absolute bottom-20 right-20 opacity-10 animate-float" />
+        {/* Asset 3 instances - Mobile: Show 2, Desktop: Show 9 */}
+        <Image src="/stellar-asset-3.png" alt="" width={120} height={120} className="hidden md:block absolute bottom-20 right-20 opacity-10 animate-float" />
         <Image src="/stellar-asset-3.png" alt="" width={90} height={90} className="absolute top-1/4 left-1/4 opacity-8 animate-float-delayed" />
-        <Image src="/stellar-asset-3.png" alt="" width={110} height={110} className="absolute top-2/3 right-10 opacity-6 animate-pulse-slow" />
-        <Image src="/stellar-asset-3.png" alt="" width={100} height={100} className="absolute bottom-1/3 left-1/2 opacity-7 animate-float" />
-        <Image src="/stellar-asset-3.png" alt="" width={80} height={80} className="absolute top-1/2 left-10 opacity-5 animate-float-delayed" />
+        <Image src="/stellar-asset-3.png" alt="" width={110} height={110} className="hidden md:block absolute top-2/3 right-10 opacity-6 animate-pulse-slow" />
+        <Image src="/stellar-asset-3.png" alt="" width={100} height={100} className="hidden md:block absolute bottom-1/3 left-1/2 opacity-7 animate-float" />
+        <Image src="/stellar-asset-3.png" alt="" width={80} height={80} className="hidden md:block absolute top-1/2 left-10 opacity-5 animate-float-delayed" />
         <Image src="/stellar-asset-3.png" alt="" width={95} height={95} className="absolute bottom-1/4 right-1/3 opacity-8 animate-pulse-slow" />
-        <Image src="/stellar-asset-3.png" alt="" width={105} height={105} className="absolute top-1/5 right-1/5 opacity-6 animate-float" />
-        <Image src="/stellar-asset-3.png" alt="" width={115} height={115} className="absolute bottom-40 left-20 opacity-7 animate-float-delayed" />
-        <Image src="/stellar-asset-3.png" alt="" width={85} height={85} className="absolute top-10 right-1/2 opacity-5 animate-pulse-slow" />
+        <Image src="/stellar-asset-3.png" alt="" width={105} height={105} className="hidden md:block absolute top-1/5 right-1/5 opacity-6 animate-float" />
+        <Image src="/stellar-asset-3.png" alt="" width={115} height={115} className="hidden md:block absolute bottom-40 left-20 opacity-7 animate-float-delayed" />
+        <Image src="/stellar-asset-3.png" alt="" width={85} height={85} className="hidden md:block absolute top-10 right-1/2 opacity-5 animate-pulse-slow" />
       </div>
 
       <div className="container mx-auto px-4 py-8 relative z-10">
@@ -183,7 +183,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <h1 className="text-7xl font-bold text-yellow-400 mb-6">
+            <h1 className="text-4xl md:text-7xl font-bold text-yellow-400 mb-6">
               Stellar OSS Issues
             </h1>
             <p className="text-slate-300 text-2xl mb-8">
@@ -334,7 +334,7 @@ export default function Home() {
             </aside>
 
             {/* Issues Grid */}
-            <main className="flex-1">
+            <main className="flex-1 min-w-0">
               {filteredIssues.length === 0 ? (
                 <div className="text-center text-slate-400 py-12">
                   <p className="text-lg">No issues found matching your filters.</p>
@@ -348,21 +348,21 @@ export default function Home() {
                       href={issue.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block bg-slate-800/50 backdrop-blur-sm hover:bg-slate-800/70 rounded-xl p-6 transition-all hover:scale-[1.02] hover:shadow-xl hover:shadow-yellow-500/20"
+                      className="block bg-slate-800/50 backdrop-blur-sm hover:bg-slate-800/70 rounded-xl p-6 transition-all hover:scale-[1.02] hover:shadow-xl hover:shadow-yellow-500/20 overflow-hidden max-w-full"
                     >
-                      <div className="flex items-start justify-between gap-4 mb-3">
-                        <h3 className="text-lg font-semibold text-white flex-1">
+                      <div className="flex items-start justify-between gap-4 mb-3 min-w-0">
+                        <h3 className="text-lg font-semibold text-white flex-1 break-words hyphens-auto min-w-0 pr-2">
                           {issue.title}
                         </h3>
                         {issue.isGoodFirstIssue && (
-                          <span className="px-3 py-1 bg-green-600 text-white text-xs font-medium rounded-full">
+                          <span className="px-3 py-1 bg-green-600 text-white text-xs font-medium rounded-full flex-shrink-0">
                             Good First Issue
                           </span>
                         )}
                       </div>
 
-                      <div className="flex items-center gap-2 text-sm text-slate-400 mb-3">
-                        <span className="font-medium text-yellow-400">{issue.repoFullName}</span>
+                      <div className="flex flex-wrap items-center gap-2 text-sm text-slate-400 mb-3">
+                        <span className="font-medium text-yellow-400 break-all">{issue.repoFullName}</span>
                         <span>•</span>
                         <span>#{issue.number}</span>
                         <span>•</span>
